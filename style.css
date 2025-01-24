@@ -1,0 +1,95 @@
+.nav{
+    display:flex;
+    height: 75px;
+    background-color:#EDD012;
+    align-items: center;
+    justify-content: space-between;
+}
+.college{
+    font-family:"Playfair Display", serif;
+    font-size:xx-large ;
+    color: #EDD012;
+    background-color: black;
+    height:100%;
+    width:150px;
+    align-content: center;
+    text-align: center;
+}
+.apply{
+    margin-left: 50%;
+}
+.apply,.Visit,.req{
+    font-size: larger;
+    font-weight: 600;
+    cursor:pointer;
+}
+.req{
+    margin-right: 50px;
+}
+.nav2{
+    display:flex;
+    height:50px;
+    background-color: aliceblue;
+    align-items: center;
+    gap:10px;
+}
+.adm,.acad,.res,.stu,.abt{
+    background-color:#00ba95;
+    border:none;
+    color:black;
+    font-family: "IBM Plex Serif", serif;
+    font-size:larger;
+    border-radius: 15px;
+    cursor:pointer;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.adm:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3); 
+  }
+.acad:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+.res:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+.stu:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+.abt:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.ath{
+    margin-left: 40%;
+}
+
+
+
+
+
+
+.page{
+    width:100%;
+    height:100vh;
+    background:url(./campus_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top left;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+@media(max-width:850px){
+    .page{
+        background-size: cover;
+        background-position: center;
+    }
+}
